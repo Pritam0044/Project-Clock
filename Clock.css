@@ -101,7 +101,7 @@ body {
     content: '';
     position: absolute;
     background-color: black;
-    z-index: 11;
+    z-index: 10;
     width: 15px;
     height: 15px;
     top: 50%;
@@ -114,16 +114,19 @@ body {
     width: 3px;
     height: 45%;
     background-color: red;
+    z-index: 5;
 }
 
 .clock .hand.minute {
     width: 7px;
     height: 40%;
     background-color: black;
+    z-index: 4;
 }
 
 .clock .hand.hour {
     width: 10px;
     height: 35%;
     background-color: black;
+    z-index:3;
 }
